@@ -1,0 +1,46 @@
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu-bar{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+#menu-bar .menu{
+    display: flex;
+    width: 85%;
+    max-width: 1632px;
+    margin: 16px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu-bar .menu .menu-container .menu-list{
+    display: flex;
+    gap: 38px;
+    list-style: none;
+}
+#menu-bar .menu .menu-container .menu-list .menu-item{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 152%;
+}
+.btn{
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: lightcyan;
+    color: #469165;
+    border: 1px solid black;
+}
