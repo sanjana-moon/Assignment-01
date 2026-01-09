@@ -36,7 +36,7 @@
     border: none;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 400;
     border-radius: 4px;
 }
 .btn:hover{
@@ -216,3 +216,34 @@
 #second-brain .second-brain .description .checklist .checklist-item i{
     color: #30B868;
 }
+
+#think-more{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#think-more .think-more{
+    margin: 0 120px;
+    padding: 80px 40px;
+    width: 85%;
+    max-width: 1632px;
+    text-align: center;
+    justify-content: center;
+    background: #F7F6F2;
+    border-radius: 12px;
+}
+#think-more .think-more h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 19px;
+}
+#think-more .think-more p{
+    font-size: 19px;
+    color: #627382;
+    line-height: 28.8px;
+    margin-bottom: 28.8px;
+}
+#think-more .think-more button {
+    margin-bottom: 19.2px;
+}
+
