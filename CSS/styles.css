@@ -44,3 +44,64 @@
     color: #469165;
     border: 1px solid black;
 }
+#banner{
+    background: url(../Images/hero-bg.png);
+    padding: 12px 70px 134px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner {
+    width: 85%;
+    max-width: 1632px;
+    margin: 138px auto 215px;
+    text-align: center;
+}
+#banner .banner .token{
+    display: flex;
+    gap: 7.2px;
+    color: #469165;
+    font-size: 19.2px;
+    font-weight: 500;
+    padding: 9.6px 14.4px;
+    margin: 0 auto 19.2px;
+    background-color: #FFFFFF;
+    max-width: 274px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1000px;
+}
+#banner .banner .banner-title {
+    font-size: 76px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+#banner .banner .banner-title #title{
+    color: #30B868;
+}
+#banner .banner .banner-description {
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 24px;
+    max-width: 924px;
+    margin: 0 auto 32px;
+    line-height: 2;
+}
+.button{
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+}
+.button #play-btn{
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+}
+.button #play-btn:hover{
+    background-color: lightcyan;
+    color: #469165;
+    border: 1px solid black; 
+}
