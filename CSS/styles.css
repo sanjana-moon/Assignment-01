@@ -113,6 +113,7 @@
 }
 .container .card-container{
     margin-top: 80px;
+    margin-bottom: 0;
 }
 .container .card-container h2{
     font-size: 57.6px;
@@ -158,4 +159,60 @@
     line-height: 20px;
     color: #627382;
     max-width: 274px;
+}
+
+#second-brain{
+    max-width: 100%;
+    padding: 120px;
+    margin: 0;
+}
+#second-brain .second-brain{
+    width: 85%;
+    max-width: 1632px;
+    text-align: center;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+#second-brain .second-brain img {
+    width: 720px;
+    height: 720px;
+    border-radius: 12px;
+}
+#second-brain .second-brain .description{
+    width: 720px;
+    text-align: left;
+    margin: auto 0;
+}
+#second-brain .second-brain .description .title{
+    font-size: 19px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+#second-brain .second-brain .description h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 19px;
+}
+#second-brain .second-brain .description p{
+    font-size: 19px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 40px;
+    padding-right: 100px;
+}
+#second-brain .second-brain .description .checklist{
+    list-style: none;
+}
+#second-brain .second-brain .description .checklist .checklist-item{
+    color: #001931;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 19px;
+}
+#second-brain .second-brain .description .checklist .checklist-item i{
+    color: #30B868;
 }
