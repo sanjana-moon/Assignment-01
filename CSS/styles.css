@@ -43,6 +43,7 @@
     background-color: lightcyan;
     color: #469165;
     border: 1px solid black;
+    cursor: pointer;
 }
 #banner{
     background: url(../Images/hero-bg.png);
@@ -131,13 +132,17 @@
     gap: 24px;
     border-radius: 8px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container .card-container .card-list .card{
-    max-width: 322px;
+    width: 322px;
+    height: 360px;
     padding: 24px;
     box-shadow: 0px 0px 8px 0px #7a5c5c59;
     text-align: center;
+    align-items: center;
     justify-content: center;
 } 
 .container .card-container .card-list .card img{
@@ -159,6 +164,7 @@
     line-height: 20px;
     color: #627382;
     max-width: 274px;
+    margin: 0 auto;
 }
 
 #second-brain{
@@ -282,6 +288,7 @@
 #footer-container .main-part hr{
     color: #E5E7EB;
     opacity: 20%;
+    font-weight: 1px;
 }
 #footer-container .bottom-part{
     font-size: 19px;
