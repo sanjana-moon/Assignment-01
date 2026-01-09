@@ -48,13 +48,16 @@
     background: url(../Images/hero-bg.png);
     padding: 12px 70px 134px;
     background-size: cover;
+    background-position: center;
     justify-content: center;
     align-items: center;
+    height: 42%;
+    max-height: 674px;
 }
-#banner .banner {
+#banner .banner, .container .card-container {
     width: 85%;
     max-width: 1632px;
-    margin: 138px auto 215px;
+    margin: 134px auto 215px;
     text-align: center;
 }
 #banner .banner .token{
@@ -104,4 +107,55 @@
     background-color: lightcyan;
     color: #469165;
     border: 1px solid black; 
+}
+.container {
+    text-align: center;
+}
+.container .card-container{
+    margin-top: 80px;
+}
+.container .card-container h2{
+    font-size: 57.6px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.container .card-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.container .card-container .card-list{
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.container .card-container .card-list .card{
+    max-width: 322px;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px #7a5c5c59;
+    text-align: center;
+    justify-content: center;
+} 
+.container .card-container .card-list .card img{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    margin: 84px auto 16px;
+    padding: 14px;
+    border-radius: 50%;
+}
+.container .card-container .card-list .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 0px auto 16px;
+}
+.container .card-container .card-list .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 274px;
 }
