@@ -171,15 +171,17 @@
     max-width: 100%;
     padding: 120px;
     padding-bottom: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 #second-brain .second-brain{
     width: 85%;
     max-width: 1632px;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     gap: 72px;
     align-items: center;
+    justify-content: space-between;
 }
 #second-brain .second-brain img {
     width: 720px;
@@ -230,12 +232,10 @@
     justify-content: center;
 }
 #think-more .think-more{
-    margin: 120px 120px 0;
+    margin: 120px auto;
     padding: 80px 40px;
     width: 85%;
     max-width: 1632px;
-    text-align: center;
-    justify-content: center;
     background: #F7F6F2;
     border-radius: 12px;
 }
